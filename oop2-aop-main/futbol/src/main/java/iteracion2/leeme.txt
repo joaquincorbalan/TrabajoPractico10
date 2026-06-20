@@ -1,0 +1,6 @@
+- Me piden agregar el registro del insulto.
+- Me piden agregar quien lo hizo (el insulto o el grito).
+- Debo modificar en varios lugares.
+- Tengo código duplicado...
+- Si aplico herencia, cambiar esto this.registro.registrar(frase) por un super(...) es muy parecido.
+-- Agregar parámetros me obliga a cambiar en varios lugares igualmente.

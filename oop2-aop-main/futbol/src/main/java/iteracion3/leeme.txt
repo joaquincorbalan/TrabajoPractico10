@@ -1,0 +1,8 @@
+- Aplico Decorador. Tengo que unificar el mensaje primero.
+- Ahora al agregar parámetros en la registración, solo cambio en un lugar. Mucho mejor!
+- Pero me queda la construcción del decorador como scattering.
+- Y si necesito decorar otra jerarquia que no es PersonaDelFutbol#dirgirmeA?
+-- Ejemplo, cada vez que el arbitro saca una tarjeta sea amarilla o roja, quiero registrar el evento. No encaja dirigirmeA(Arbitro)...
+--- Reaparece el scattring.
+
+-> Por ahi se justifica AOP cuando tengo un requerimiento que debe aplicarse a varias jerarquias con metodos no polimorficos entre ellas.
